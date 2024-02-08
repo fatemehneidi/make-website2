@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h1{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+.form{
+    width: 500px;
+    max-width: 500px;
+    background-color: hsla(341, 0%, 65%, 0.2);
+    justify-content: center;
+    display: flex;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+.form input{
+    border: none;
+    background: transparent;
+    flex: 1;
+    outline: none;
+}
+.form button{
+    border: none;
+    cursor: pointer;
+}
+.nav{
+    display: flex;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+}
+li a{
+    text-decoration: none;
+    transition: 0.3s ease;
+    color: black;
+}
+li a:hover{
+    color: #ccc;
+}
+.img1{
+    
+    background-image: url("https://media.istockphoto.com/id/1413840933/photo/old-books-on-wooden-shelf-tiled-bookshelf-background-concept-on-the-theme-of-history.jpg?s=612x612&w=0&k=20&c=Ys1thdZcZ-O_zJIrSw5-va8dlqFiCo9bTiXzpM2LHsY=");
+    background-size: auto;
+    height: 340px;
+    margin-top: 100px;
+}
+.parent{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+.parent img{
+    width: 100px;
+    height: 150px;
+    border-radius: 4px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    font-size:xx-large;
+}
+div p{
+    display: flex;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 110px;
+    margin-top: -150px;
+}
+article div{
+    width: 60%;
+}
+article{
+    width: 10vw;
+    height: 40vw;
+}
+
+.parent1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: -27%;
+    flex-wrap: wrap;
+}
+.parent1 img{
+    width: 100px;
+    height: 150px;
+    border-radius: 4px;
+}
+div p{
+    display: flex;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 110px;
+    margin-top: -150px;
+}
+article div{
+    width: 150%;
+}
+article{
+    width: 10vw;
+    height: 40vw;
+}
+.c{
+    display: flex;
+    margin-left: 2px;
+    margin-top: 160px;
+    font-weight: lighter;
+    color: gray;
+    width: 180%;
+}
+.d{
+    display: flex;
+    margin-left: 2px;
+    margin-top: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.c1{
+    display: flex;
+    margin-left: 2px;
+    margin-top: 155px;
+    font-weight: lighter;
+    color: gray;
+    width: 150%;
+}
+.d1{
+    display: flex;
+    margin-left: 2px;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.img2{
+    background-image: url("https://media.istockphoto.com/id/171148148/photo/row-of-antique-books.jpg?s=612x612&w=0&k=20&c=yH6HUvoqUwg5k200b9VEeVOk-0jnIJFcpedQZ8f9arw=");
+    background-size: contain;
+    height: 100px;
+    margin-top: -300px;
+    margin-bottom: 50px;
+}
+@media (max-width: 420px) {
+    .nav{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: -80px;
+        margin-bottom: 20px;
+    }
+    
+}
+@media (max-width: 420px) {
+    .form{
+        width: 300px;
+        height: 80px;
+        margin-left: -20px;
+    }
+    
+}
+
+@media (max-width: 420px) {
+    .h1{
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 358px;
+        height: 230px;
+        background-color: white;
+        
+    }
+    
+}
+
+@media (max-width: 420px) {
+    .img1{
+        width: 360px;
+        height: 370px;
+        margin-top: 240px;
+    }
+    
+}
+@media (max-width: 420px) {
+    .parent{
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 60px;
+        margin-bottom: 200px;
+        margin-left: -90px;
+    }
+}
+@media (max-width: 420px) {
+    .parent1{
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 60px;
+        margin-left: -90px;
+    }
+    
+}
+@media(max-width: 420px) {
+    .img{
+        margin-top: 20px;
+    }
+    
+}
+
